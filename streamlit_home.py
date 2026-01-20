@@ -33,6 +33,11 @@ apps = {
         "description": "Optimize cutting layouts and generate door labels",
         "url": "https://hdlkpnester.streamlit.app/",
         "emoji": "🔶"
+    },
+    "Dave's Door Pricer": {
+        "description": "Door pricing and quotation tool",
+        "url": "https://daves-door-pricer-app.streamlit.app/",
+        "emoji": "💰"
     }
 }
 
