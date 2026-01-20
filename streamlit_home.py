@@ -29,10 +29,10 @@ apps = {
         "url": "https://pm7-to-cin7-importer.streamlit.app/",
         "emoji": "📥"
     },
-    "App 3": {
-        "description": "Description of your third app",
-        "url": "http://localhost:8503",
-        "emoji": "🔍"
+    "Kickplate Nesting Optimizer": {
+        "description": "Optimize cutting layouts and generate door labels",
+        "url": "https://hdlkpnester.streamlit.app/",
+        "emoji": "🔶"
     }
 }
 
