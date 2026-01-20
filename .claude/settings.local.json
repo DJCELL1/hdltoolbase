@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: HDL Tools Hub\n\nCreate centralized landing page for Hardware Direct Streamlit applications with consistent branding and theme.\n\n- Add streamlit_home.py: Main landing page with links to all apps\n- Add Hardware Direct theme configuration \\(.streamlit/config.toml\\)\n- Add README.md with setup and usage instructions\n- Add .gitignore for Python and Streamlit projects\n- Configure PO Wizard app link \\(port 8502\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(gh --version:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nUpdate PO Wizard URL to deployed Streamlit app\n\nReplace localhost URL with production Streamlit Cloud URL for PO Wizard app.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd PM7 to Cin7 Importer and redesign with big square buttons\n\n- Add PM7 to Cin7 Importer app with deployed URL\n- Replace text hyperlinks with large, interactive square buttons\n- Add hover effects with Hardware Direct orange theme\n- Improve visual hierarchy with larger emoji icons\n- Make buttons more prominent and easier to click\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)"
     ]
   }
 }

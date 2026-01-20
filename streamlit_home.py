@@ -7,9 +7,13 @@ st.set_page_config(
     layout="wide"
 )
 
-# Title and description
-st.title("🔧 Hardware Direct Tools Hub")
-st.markdown("Central hub for all Hardware Direct internal applications")
+# Header with logo
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    st.image("Logos-01.jpg", use_container_width=True)
+
+st.markdown("<h2 style='text-align: center; color: #2B2B2B;'>Tools Hub</h2>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #666;'>Central hub for all Hardware Direct internal applications</p>", unsafe_allow_html=True)
 
 st.divider()
 
@@ -83,33 +87,7 @@ for idx, (app_name, app_info) in enumerate(apps.items()):
         </a>
         """, unsafe_allow_html=True)
 
-# Instructions for adding new apps
-with st.expander("ℹ️ How to add new apps"):
-    st.markdown("""
-    To add a new app to this hub:
-
-    1. **Add an entry to the `apps` dictionary** in this file with:
-       - App name as the key
-       - A dictionary with `description`, `url`, and `emoji`
-
-    2. **Example:**
-    ```python
-    "My New App": {
-        "description": "What this app does",
-        "url": "http://localhost:8504",
-        "emoji": "🚀"
-    }
-    ```
-
-    3. **Running apps on different ports:**
-    ```bash
-    streamlit run app1.py --server.port 8501
-    streamlit run app2.py --server.port 8502
-    streamlit run app3.py --server.port 8503
-    ```
-    """)
-
 st.divider()
 
 # Footer
-st.markdown("*Add, modify, or remove apps by editing the `apps` dictionary in this file*")
+st.markdown("<p style='text-align: center; color: #999; font-size: 12px;'>© Hardware Direct Limited</p>", unsafe_allow_html=True)
