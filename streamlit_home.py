@@ -38,6 +38,11 @@ apps = {
         "description": "Door pricing and quotation tool",
         "url": "https://daves-door-pricer-app.streamlit.app/",
         "emoji": "💰"
+    },
+    "ARA Schedule Extract": {
+        "description": "Extract and process ARA schedule data",
+        "url": "https://arascheduleextract.streamlit.app/",
+        "emoji": "📋"
     }
 }
 
