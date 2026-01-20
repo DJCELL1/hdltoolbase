@@ -17,7 +17,7 @@ st.divider()
 apps = {
     "PO Wizard": {
         "description": "Multi-supplier Purchase Order Builder for Cin7",
-        "url": "http://localhost:8502",
+        "url": "https://cin7-po-wizard.streamlit.app/",
         "emoji": "📦"
     },
     "App 2": {
