@@ -43,6 +43,11 @@ apps = {
         "description": "Extract and process ARA schedule data",
         "url": "https://arascheduleextract.streamlit.app/",
         "emoji": "📋"
+    },
+    "HDL Workshop Dashboard": {
+        "description": "Workshop management and tracking dashboard",
+        "url": "https://workshop-dashboard-hdl.streamlit.app/",
+        "emoji": "🏭"
     }
 }
 
